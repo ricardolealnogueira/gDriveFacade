@@ -1,0 +1,11 @@
+# Python 3.6.7
+FROM python:3.6.7-alpine3.6
+# Pacotes necessários 
+COPY requirement.txt /
+# instruction to be run during image build
+RUN pip install -r requirement.txt
+# Copy all the files from current source duirectory(from your system) to
+# Docker container in /gDriveFacade directory 
+COPY . /
+ENTRYPOINT ["python"]
+CMD ["gDriveFacade/start.py"]
