@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário para busca de texto em arquivo do gDrive</title>
+</head>
+<body>
+    <script>
+        function submit_form () {
+            /* Realiza requisição GET à API de busca em arquivos com os valores inseridos no formulário */
+            file_id = document.getElementById('file_id').value
+            search_text = document.getElementById('search_text').value
+            url = "http://localhost:8080/search-in-doc/" + file_id + "?word=" + search_text
+            window.open(url)
+        }
+    </script>
+    <h1>Formulário para busca de texto em arquivo do gDrive</h1>
+
+    <form>
+        <label for="file_id">ID: </label>
+        <input id="file_id" name="file_id" type="text" />
+        <br /><br />
+        <label for="search_text">Texto: </label>
+        <input id="search_text" name="search_text" type="text" />
+        <br /><br />
+        <button onclick="submit_form()"> Enviar </button>
+    </form>
+</body>
+</html>
