@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="64c714db-6232-458f-8d79-df516d4b04d6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/test.token.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/etc/test.token.pickle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/etc/token.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/etc/token.pickle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.start">
+  <component name="RunManager" selected="Python tests.pytest in tests">
     <configuration name="Executa start.py" type="PythonConfigurationType" factoryName="Python">
       <module name="gDriveFacade" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,8 +191,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.start" />
         <item itemvalue="Python tests.pytest in tests" />
+        <item itemvalue="Python.start" />
         <item itemvalue="Python.endpoints" />
         <item itemvalue="Python tests.pytest for tests.test_api" />
         <item itemvalue="Python tests.pytest for tests.test_api" />
